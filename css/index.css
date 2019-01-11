@@ -148,7 +148,7 @@ footer nav a {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 0 10px;
     
 }
 .navcontainer a{
@@ -166,7 +166,6 @@ footer nav a {
     display: flex;
     margin: 20px auto;
     height: 150px;
-    width: 70%;
     justify-content: center;
 }
 .boxes{
@@ -270,5 +269,22 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
+
+}
+.container-about-page{
+    border: 2px solid black;
+    width: 800px;
+    margin: 0 auto;
+}
+button{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 5px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto; 
 
 }
