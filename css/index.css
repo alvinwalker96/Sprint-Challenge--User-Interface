@@ -144,3 +144,34 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.boxes .boxa{
+    color: teal;
+}
+.boxes .boxb{
+    color: gold;
+}
+.boxes .boxc{
+    color: cadetblue;
+}
+.boxes .boxd{
+    color: coral;
+}
+.boxes .boxe{
+    color: crimson;
+}
+.boxes .boxf{
+    color: forestgreen;
+}
+.boxes .boxg{
+    color: darkorchid;
+}
+.boxes .boxh{
+    color: hotpink;
+}
+.boxes .boxi{
+    color: indigo;
+}
+.boxes .boxj{
+    color: dodgerblue;
+}
