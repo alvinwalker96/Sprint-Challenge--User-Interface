@@ -141,37 +141,37 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    background-color: white;
     text-decoration: none;
 }
 
 .boxes .boxa{
-    color: teal;
+    background-color: teal;
 }
 .boxes .boxb{
-    color: gold;
+    background-color: gold;
 }
 .boxes .boxc{
-    color: cadetblue;
+    background-color: cadetblue;
 }
 .boxes .boxd{
-    color: coral;
+    background-color: coral;
 }
 .boxes .boxe{
-    color: crimson;
+    background-color: crimson;
 }
 .boxes .boxf{
-    color: forestgreen;
+    background-color: forestgreen;
 }
 .boxes .boxg{
-    color: darkorchid;
+    background-color: darkorchid;
 }
 .boxes .boxh{
-    color: hotpink;
+    background-color: hotpink;
 }
 .boxes .boxi{
-    color: indigo;
+    background-color: indigo;
 }
 .boxes .boxj{
-    color: dodgerblue;
+    background-color: dodgerblue;
 }
