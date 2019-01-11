@@ -60,6 +60,9 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    animation-name: coloring;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 p {
@@ -326,3 +329,7 @@ button{
     justify-content: center;
     align-content: center;
 }
+@keyframes coloring {
+    from {color: red;}
+    to {color: blue;}
+  }
