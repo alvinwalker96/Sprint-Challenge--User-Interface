@@ -183,6 +183,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
+    animation-name: colorswapa;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .boxes .boxb{
     display:flex;
@@ -192,7 +195,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswapb;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
 }
 .boxes .boxc{
     display:flex;
@@ -202,7 +207,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswapc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .boxes .boxd{
     display:flex;
@@ -212,7 +219,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswapd;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .boxes .boxe{
     display:flex;
@@ -222,7 +231,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswape;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .boxes .boxf{
     display:flex;
@@ -232,7 +243,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswapf;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .boxes .boxg{
     display:flex;
@@ -242,7 +255,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswapg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .boxes .boxh{
     display:flex;
@@ -252,7 +267,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswaph;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .boxes .boxi{
     display:flex;
@@ -262,7 +279,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswapi;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .boxes .boxj{
     display:flex;
@@ -272,7 +291,9 @@ footer nav a {
     width: 100px;
     height: 100px;
     margin: 25px;
-
+    animation-name: colorswapj;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .container-about-page{
     
@@ -333,3 +354,97 @@ button{
     from {color: red;}
     to {color: blue;}
   }
+@keyframes colorswapa{
+    0% {background-color: teal;}
+    10%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapb{
+    0%{background-color: gold;}
+    10%{background-color: teal;}
+    20%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapc{
+    0%{background-color: cadetblue;}
+    10%{background-color: gold;}
+    20%{background-color: teal;}
+    30%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapd{
+    0% {background-color: coral;}
+    10%{background-color: cadetblue;}
+    20%{background-color: gold;}
+    30%{background-color: teal;}
+    40%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswape{
+    0%{background-color: crimson;}
+    10% {background-color: coral;}
+    20%{background-color: cadetblue;}
+    30%{background-color: gold;}
+    40%{background-color: teal;}
+    50%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapf{
+    0% {background-color: forestgreen;}
+    10%{background-color: crimson;}
+    20% {background-color: coral;}
+    30%{background-color: cadetblue;}
+    40%{background-color: gold;}
+    50%{background-color: teal;}
+    60%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapg{
+    0% {background-color: darkorchid;}
+    10% {background-color: forestgreen;}
+    20%{background-color: crimson;}
+    30% {background-color: coral;}
+    40%{background-color: cadetblue;}
+    50%{background-color: gold;}
+    60%{background-color: teal;}
+    70%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswaph{
+    0% {background-color: hotpink;}
+    10% {background-color: darkorchid;}
+    20% {background-color: forestgreen;}
+    30%{background-color: crimson;}
+    40% {background-color: coral;}
+    50%{background-color: cadetblue;}
+    60%{background-color: gold;}
+    70%{background-color: teal;}
+    80%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapi{
+    0% {background-color: indigo;}
+    10% {background-color: hotpink;}
+    20% {background-color: darkorchid;}
+    30% {background-color: forestgreen;}
+    40%{background-color: crimson;}
+    50% {background-color: coral;}
+    60%{background-color: cadetblue;}
+    70%{background-color: gold;}
+    80%{background-color: teal;}
+    90%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapj{
+    0% {background-color: dodgerblue;}
+    10% {background-color: indigo;}
+    20% {background-color: hotpink;}
+    30% {background-color: darkorchid;}
+    40% {background-color: forestgreen;}
+    50%{background-color: crimson;}
+    60% {background-color: coral;}
+    70%{background-color: cadetblue;}
+    80%{background-color: gold;}
+    90%{background-color: teal;}
+    100%{background-color: white;}
+}
