@@ -60,6 +60,9 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    animation-name: coloring;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 p {
@@ -143,4 +146,305 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.navcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    
+}
+.navcontainer a{
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+    text-decoration: none;
+}
+.navcontainer img{
+    width: 150px;
+    height: 35px;
+}
+.cars{
+    display: flex;
+    margin: 20px auto;
+    height: 150px;
+    justify-content: center;
+}
+.boxes{
+    display: flex;
+    flex-flow: row wrap;
+}
+.boxes .boxa{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswapa;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.boxes .boxb{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswapb;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+.boxes .boxc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswapc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.boxes .boxd{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswapd;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.boxes .boxe{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswape;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.boxes .boxf{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswapf;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.boxes .boxg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorchid;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswapg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.boxes .boxh{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswaph;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.boxes .boxi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswapi;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.boxes .boxj{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    animation-name: colorswapj;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.container-about-page{
+    
+    width: 900px;
+    margin: 0 auto;
+}
+button{
+    background-color: white;
+    border-radius: 10%;
+    padding: 5px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.about-start{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+    padding: 20px;
+}
+
+.content1, .content2, .content3, .content4{
+    width: 425px;
+    margin: 20px auto;
+    border-bottom: 2px dotted black;
+    
+}
+.tower{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 98%;
+}
+.main-content img{
+    width: 425px;
+    margin-bottom: 10px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    width: 880px;
+    margin: 20px auto 30px auto;
+    justify-content: center;
+    align-content: center;
+}
+@keyframes coloring {
+    from {color: red;}
+    to {color: blue;}
+  }
+@keyframes colorswapa{
+    0% {background-color: teal;}
+    10%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapb{
+    0%{background-color: gold;}
+    10%{background-color: teal;}
+    20%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapc{
+    0%{background-color: cadetblue;}
+    10%{background-color: gold;}
+    20%{background-color: teal;}
+    30%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapd{
+    0% {background-color: coral;}
+    10%{background-color: cadetblue;}
+    20%{background-color: gold;}
+    30%{background-color: teal;}
+    40%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswape{
+    0%{background-color: crimson;}
+    10% {background-color: coral;}
+    20%{background-color: cadetblue;}
+    30%{background-color: gold;}
+    40%{background-color: teal;}
+    50%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapf{
+    0% {background-color: forestgreen;}
+    10%{background-color: crimson;}
+    20% {background-color: coral;}
+    30%{background-color: cadetblue;}
+    40%{background-color: gold;}
+    50%{background-color: teal;}
+    60%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapg{
+    0% {background-color: darkorchid;}
+    10% {background-color: forestgreen;}
+    20%{background-color: crimson;}
+    30% {background-color: coral;}
+    40%{background-color: cadetblue;}
+    50%{background-color: gold;}
+    60%{background-color: teal;}
+    70%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswaph{
+    0% {background-color: hotpink;}
+    10% {background-color: darkorchid;}
+    20% {background-color: forestgreen;}
+    30%{background-color: crimson;}
+    40% {background-color: coral;}
+    50%{background-color: cadetblue;}
+    60%{background-color: gold;}
+    70%{background-color: teal;}
+    80%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapi{
+    0% {background-color: indigo;}
+    10% {background-color: hotpink;}
+    20% {background-color: darkorchid;}
+    30% {background-color: forestgreen;}
+    40%{background-color: crimson;}
+    50% {background-color: coral;}
+    60%{background-color: cadetblue;}
+    70%{background-color: gold;}
+    80%{background-color: teal;}
+    90%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes colorswapj{
+    0% {background-color: dodgerblue;}
+    10% {background-color: indigo;}
+    20% {background-color: hotpink;}
+    30% {background-color: darkorchid;}
+    40% {background-color: forestgreen;}
+    50%{background-color: crimson;}
+    60% {background-color: coral;}
+    70%{background-color: cadetblue;}
+    80%{background-color: gold;}
+    90%{background-color: teal;}
+    100%{background-color: white;}
 }
